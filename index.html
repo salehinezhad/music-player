@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <title>music player</title>
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!--background  -->
+    <div class="bg-container">
+        <img src="images/pic1.jpg" alt="" id="background">
+    </div>
+
+    <div class="player-container">
+        <!-- top icon -->
+        <div class="top-icons">
+            <i class="top-icon fa fa-arrow-left"></i>
+            <i class="top-icon fas fa-ellipsis-v ellipsis" id="ellipsis"></i>
+        </div>
+        <!-- Song -->
+        <div class="img-container">
+            <img src="images/pic1.jpg" alt="" id="cover" class="active">
+        </div>
+        <h2 id="title">heart like heaven</h2>
+        <h3 id="artist">moein</h3>
+        <audio src=""></audio>
+        <!-- Progress -->
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+            <div class="duration-wrapper">
+                <span id="current-time"></span>
+                <span id="duration"></span>
+            </div>
+        </div>
+        <!-- Controls -->
+        <div class="player-controls">
+            <i class="bottom-icon bi bi-chevron-bar-left" id="prev" title="Previous"></i>
+            <i class="bottom-icon bi bi-play-circle-fill main-button" id="play" title="Play"></i>
+            <i class="bottom-icon bi bi-chevron-bar-right" id="next" title="Next"></i>
+        </div>
+
+        <div>
+
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
